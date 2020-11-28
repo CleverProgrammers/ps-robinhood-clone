@@ -1,0 +1,32 @@
+
+.Header {
+    display: flex;
+    padding: 8px;
+    align-items: center;
+}
+
+.Header-search {
+    margin-left: 90px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #333;
+    border-radius: 4px;
+    width: 300px;
+}
+
+.searchContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.searchContainer svg {
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #333;
+}
+
+.Header-logo img {
+    height: 30px;
+}
