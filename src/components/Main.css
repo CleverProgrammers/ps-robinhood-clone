@@ -1,0 +1,11 @@
+.Main {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+.Main-container {
+    width: 1024px;
+    height: 200px;
+    display: flex;
+}

@@ -1,0 +1,24 @@
+.StockItem {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 24px;
+    height: 60px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.StockItem:hover {
+    background-color: #31363A;
+}
+
+.StockItem-name {
+    text-align: left;
+}
+
+.StockItem-price {
+    text-align: right;
+}
+
+.StockItem-price .percentage {
+    color: #5AC53B;
+}

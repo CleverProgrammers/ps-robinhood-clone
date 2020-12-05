@@ -1,5 +1,5 @@
 
-import Logo from '../rb-logo.png'
+import Logo from '../robinhood.svg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
 import './Header.css'
@@ -17,7 +17,13 @@ function Header() {
           <input className="searchInput" type="text"  placeholder="Search"/>
         </div>
       </div>
-      <div className="Header-links"></div>
+      <div className="Header-links">
+        <a href="/">Free Stocks</a>
+        <a href="/">Portfolio</a>
+        <a href="/">Cash</a>
+        <a href="/">Messages</a>
+        <a href="/">Account</a>
+      </div>
     </div>
   );
 }
